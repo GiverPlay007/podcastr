@@ -4,8 +4,8 @@ import { GetStaticProps } from "next";
 import { api } from "../services/api";
 import { convertDurationToTimeString } from "../utils/convertDurationToTimeString";
 import { usePlayer } from "../contexts/PlayerContext";
-import { Head } from "next/document";
 
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./home.module.scss";
